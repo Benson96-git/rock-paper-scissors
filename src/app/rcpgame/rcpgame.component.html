@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Rock Paper Scissors</h1>
+    
+    <div class="choices">
+      <button (click)="play('rock')">Rock</button>
+      <button (click)="play('paper')">Paper</button>
+      <button (click)="play('scissors')">Scissors</button>
+    </div>
+    
+    <div class="results">
+      <p>You chose: {{ userChoice }}</p>
+      <p>Computer chose: {{ computerChoice }}</p>
+      <p>{{ result }}</p>
+    </div>
+  </div>
